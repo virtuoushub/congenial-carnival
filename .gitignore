@@ -130,3 +130,7 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# astro
+.astro/*
