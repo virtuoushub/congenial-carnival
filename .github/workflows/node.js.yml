@@ -21,6 +21,5 @@ jobs:
       with:
         node-version: 22.11.0
         cache: 'yarn'
-    - run: yarn install
     # https://yarnpkg.com/cli/install#examples
     - run: yarn install --immutable --immutable-cache --check-cache
