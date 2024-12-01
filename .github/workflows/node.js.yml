@@ -21,6 +21,5 @@ jobs:
       with:
         node-version: 22.11.0
         cache: 'yarn'
-    # - run: npm ci
-    # - run: npm run build --if-present
-    # - run: npm test
+    # https://yarnpkg.com/cli/install#examples
+    - run: yarn install --immutable --immutable-cache --check-cache
