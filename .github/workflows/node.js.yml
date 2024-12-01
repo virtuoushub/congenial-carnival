@@ -1,0 +1,25 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-24.04
+    
+    steps:
+    - uses: actions/checkout@v4.2.2
+    - name: Use Node.js 22.x
+      uses: actions/setup-node@v4.1.0
+      with:
+        node-version: 22.11.0
+        cache: 'yarn'
+    # https://yarnpkg.com/cli/install#examples
+    - run: yarn install --immutable --immutable-cache --check-cache

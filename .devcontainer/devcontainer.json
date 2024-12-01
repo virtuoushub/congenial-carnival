@@ -1,0 +1,12 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "astro-build.astro-vscode",
+                "github.vscode-github-actions"        
+            ]
+        }
+    },
+    "appPort": "4321"
+}
