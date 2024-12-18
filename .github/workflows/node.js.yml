@@ -22,4 +22,4 @@ jobs:
         node-version: 22.11.0
         cache: 'yarn'
     # https://yarnpkg.com/cli/install#examples
-    - run: YARN_ENABLE_HARDENED_MODE=0 yarn install --immutable --immutable-cache --check-cache
+    - run: YARN_ENABLE_HARDENED_MODE=0 yarn install --immutable --immutable-cache
