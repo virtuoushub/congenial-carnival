@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@astrojs/check", "virtual:1baba0ebe5aaa5cd3ff0093e552b47ef64d0929887217ece048fab555e8ee7f850e7bd86535acf166e4fe7e76967d5eb32d3b46742541132546ed11ad3b3ed5b#npm:0.9.4"],\
           ["astro", "npm:5.1.9"],\
-          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["@types/typescript", null],\
           ["chokidar", "npm:4.0.1"],\
           ["kleur", "npm:4.1.5"],\
-          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "packagePeers": [\
@@ -1538,7 +1538,7 @@ const RAW_RUNTIME_STATE =
           ["beneficial-bar", "workspace:."],\
           ["@astrojs/check", "virtual:1baba0ebe5aaa5cd3ff0093e552b47ef64d0929887217ece048fab555e8ee7f850e7bd86535acf166e4fe7e76967d5eb32d3b46742541132546ed11ad3b3ed5b#npm:0.9.4"],\
           ["astro", "npm:5.1.9"],\
-          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4791,10 +4791,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-aed9e5263d-10c0.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5", {\
+        "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-6da68bae26-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
