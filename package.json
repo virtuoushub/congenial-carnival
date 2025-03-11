@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/check": "0.9.4",
     "astro": "5.4.3",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "packageManager": "yarn@4.7.0"
 }
