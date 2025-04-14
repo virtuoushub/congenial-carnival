@@ -13,5 +13,5 @@
     "astro": "5.6.1",
     "typescript": "5.8.3"
   },
-  "packageManager": "yarn@4.8.1"
+  "packageManager": "yarn@4.9.1"
 }
