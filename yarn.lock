@@ -1217,9 +1217,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.9.4":
-  version: 5.9.4
-  resolution: "astro@npm:5.9.4"
+"astro@npm:5.11.0":
+  version: 5.11.0
+  resolution: "astro@npm:5.11.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -1288,7 +1288,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/418ee50278ae78a04ac40fe73a969fa16395d7ba49f448e76ba22b85a5420e94b9839223ed715fb40b5027eef583f28f6440186587aeefbb1d2080cdd9e4865a
+  checksum: 10c0/77d242d50f2fcddd8aff318f04db48b04a5fa601a7298034d50eaff9fd1db58d4199773b340e803ceaa31c90a0e7d42fdc09b5e8e5b08f85128c8d0f8436e793
   languageName: node
   linkType: hard
 
@@ -1332,7 +1332,7 @@ __metadata:
   resolution: "beneficial-bar@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.4"
-    astro: "npm:5.9.4"
+    astro: "npm:5.11.0"
     typescript: "npm:5.8.3"
   languageName: unknown
   linkType: soft
