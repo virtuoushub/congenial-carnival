@@ -19,7 +19,7 @@ jobs:
     - name: Use Node.js 22.x
       uses: actions/setup-node@v4.4.0
       with:
-        node-version: 22.17.0
+        node-version: 22.19.0
         cache: 'yarn'
     # https://yarnpkg.com/cli/install#examples
     - run: YARN_ENABLE_HARDENED_MODE=0 yarn install --immutable
