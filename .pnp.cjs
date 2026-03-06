@@ -1625,10 +1625,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ajv", [\
-      ["npm:8.17.1", {\
-        "packageLocation": "../../.yarn/berry/cache/ajv-npm-8.17.1-12ade7edc6-10c0.zip/node_modules/ajv/",\
+      ["npm:8.18.0", {\
+        "packageLocation": "../../.yarn/berry/cache/ajv-npm-8.18.0-6e5e062765-10c0.zip/node_modules/ajv/",\
         "packageDependencies": [\
-          ["ajv", "npm:8.17.1"],\
+          ["ajv", "npm:8.18.0"],\
           ["fast-deep-equal", "npm:3.1.3"],\
           ["fast-uri", "npm:3.0.3"],\
           ["json-schema-traverse", "npm:1.0.0"],\
@@ -1649,7 +1649,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/ajv-draft-04-virtual-d07857110a/3/.yarn/berry/cache/ajv-draft-04-npm-1.0.0-6fc962dbab-10c0.zip/node_modules/ajv-draft-04/",\
         "packageDependencies": [\
           ["@types/ajv", null],\
-          ["ajv", "npm:8.17.1"],\
+          ["ajv", "npm:8.18.0"],\
           ["ajv-draft-04", "virtual:6c7860f3a85f4baa0f3c026ff5d7272d59bacd63911e722d4bc8cd5f483b5668644edfe5d661ce641c1610c33d6b3bdf261be9047836ed767c3db624030d1a78#npm:1.0.0"]\
         ],\
         "packagePeers": [\
@@ -6164,7 +6164,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/yaml-language-server-npm-1.19.2-6c7860f3a8-10c0.zip/node_modules/yaml-language-server/",\
         "packageDependencies": [\
           ["@vscode/l10n", "npm:0.0.18"],\
-          ["ajv", "npm:8.17.1"],\
+          ["ajv", "npm:8.18.0"],\
           ["ajv-draft-04", "virtual:6c7860f3a85f4baa0f3c026ff5d7272d59bacd63911e722d4bc8cd5f483b5668644edfe5d661ce641c1610c33d6b3bdf261be9047836ed767c3db624030d1a78#npm:1.0.0"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.7.2"],\
