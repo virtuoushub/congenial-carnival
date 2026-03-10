@@ -9,8 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "0.9.6",
-    "astro": "5.17.3",
+    "@astrojs/check": "0.9.7",
+    "astro": "5.18.1",
     "typescript": "5.9.3"
   },
   "packageManager": "yarn@4.12.0"
