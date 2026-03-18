@@ -2931,14 +2931,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["h3", [\
-      ["npm:1.15.5", {\
-        "packageLocation": "../../.yarn/berry/cache/h3-npm-1.15.5-676ab956f4-10c0.zip/node_modules/h3/",\
+      ["npm:1.15.8", {\
+        "packageLocation": "../../.yarn/berry/cache/h3-npm-1.15.8-f970427097-10c0.zip/node_modules/h3/",\
         "packageDependencies": [\
           ["cookie-es", "npm:1.2.2"],\
           ["crossws", "npm:0.3.5"],\
           ["defu", "npm:6.1.4"],\
           ["destr", "npm:2.0.5"],\
-          ["h3", "npm:1.15.5"],\
+          ["h3", "npm:1.15.8"],\
           ["iron-webcrypto", "npm:1.2.1"],\
           ["node-mock-http", "npm:1.0.4"],\
           ["radix3", "npm:1.1.2"],\
@@ -5611,7 +5611,7 @@ const RAW_RUNTIME_STATE =
           ["chokidar", "npm:5.0.0"],\
           ["db0", null],\
           ["destr", "npm:2.0.5"],\
-          ["h3", "npm:1.15.5"],\
+          ["h3", "npm:1.15.8"],\
           ["idb-keyval", null],\
           ["ioredis", null],\
           ["lru-cache", "npm:11.2.4"],\
