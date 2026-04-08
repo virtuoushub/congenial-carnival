@@ -2187,10 +2187,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["defu", [\
-      ["npm:6.1.4", {\
-        "packageLocation": "../../.yarn/berry/cache/defu-npm-6.1.4-c791c7f2cc-10c0.zip/node_modules/defu/",\
+      ["npm:6.1.7", {\
+        "packageLocation": "../../.yarn/berry/cache/defu-npm-6.1.7-f72aac71e9-10c0.zip/node_modules/defu/",\
         "packageDependencies": [\
-          ["defu", "npm:6.1.4"]\
+          ["defu", "npm:6.1.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2708,7 +2708,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["cookie-es", "npm:1.2.2"],\
           ["crossws", "npm:0.3.5"],\
-          ["defu", "npm:6.1.4"],\
+          ["defu", "npm:6.1.7"],\
           ["destr", "npm:2.0.5"],\
           ["h3", "npm:1.15.9"],\
           ["iron-webcrypto", "npm:1.2.1"],\
