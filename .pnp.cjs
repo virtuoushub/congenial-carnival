@@ -2029,7 +2029,7 @@ const RAW_RUNTIME_STATE =
           ["sharp", "virtual:281d95dc7a3f59d558a28d9b937b31768747be7439611ebf5f99bf0e8c86268092b197bd6d6c63843ebe550b67cb9f66f35973aaa85eee6829fe60b906c0b785#npm:0.35.3"],\
           ["shiki", "npm:4.0.2"],\
           ["smol-toml", "npm:1.6.1"],\
-          ["svgo", "npm:4.0.1"],\
+          ["svgo", "npm:4.0.2"],\
           ["tinyclip", "npm:0.1.12"],\
           ["tinyexec", "npm:1.1.1"],\
           ["tinyglobby", "npm:0.2.15"],\
@@ -4404,8 +4404,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["svgo", [\
-      ["npm:4.0.1", {\
-        "packageLocation": "../../.yarn/berry/cache/svgo-npm-4.0.1-262aa771e6-10c0.zip/node_modules/svgo/",\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../.yarn/berry/cache/svgo-npm-4.0.2-6a6f83b4dd-10c0.zip/node_modules/svgo/",\
         "packageDependencies": [\
           ["commander", "npm:11.1.0"],\
           ["css-select", "npm:5.2.2"],\
@@ -4414,7 +4414,7 @@ const RAW_RUNTIME_STATE =
           ["csso", "npm:5.0.5"],\
           ["picocolors", "npm:1.1.1"],\
           ["sax", "npm:1.5.0"],\
-          ["svgo", "npm:4.0.1"]\
+          ["svgo", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
