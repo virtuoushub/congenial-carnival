@@ -107,8 +107,8 @@ const RAW_RUNTIME_STATE =
           ["@types/prettier-plugin-astro", null],\
           ["@volar/kit", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["@volar/language-core", "npm:2.4.28"],\
-          ["@volar/language-server", "npm:2.4.28"],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-server", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["muggle-string", "npm:0.4.1"],\
           ["prettier", null],\
           ["prettier-plugin-astro", null],\
@@ -1481,8 +1481,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/typescript", null],\
           ["@volar/kit", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
-          ["@volar/language-service", "npm:2.4.28"],\
-          ["@volar/typescript", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["@volar/typescript", "virtual:692a20906e9d02a63905b0a5b5b25f0fdb0b1a1a3553e94427f72f847a8107db4866d98f1ff14b452401ff4f7127c5dba2f11cb5fbc319549100360070322079#npm:2.4.28"],\
           ["typesafe-path", "npm:0.2.2"],\
           ["typescript", null],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
@@ -1509,16 +1509,29 @@ const RAW_RUNTIME_STATE =
       ["npm:2.4.28", {\
         "packageLocation": "../../.yarn/berry/cache/@volar-language-server-npm-2.4.28-77b4317a0a-10c0.zip/node_modules/@volar/language-server/",\
         "packageDependencies": [\
+          ["@volar/language-server", "npm:2.4.28"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28", {\
+        "packageLocation": "./.yarn/__virtual__/@volar-language-server-virtual-1f5fbadb05/3/.yarn/berry/cache/@volar-language-server-npm-2.4.28-77b4317a0a-10c0.zip/node_modules/@volar/language-server/",\
+        "packageDependencies": [\
+          ["@types/typescript", null],\
           ["@volar/language-core", "npm:2.4.28"],\
-          ["@volar/language-server", "npm:2.4.28"],\
-          ["@volar/language-service", "npm:2.4.28"],\
-          ["@volar/typescript", "npm:2.4.28"],\
+          ["@volar/language-server", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["@volar/typescript", "virtual:692a20906e9d02a63905b0a5b5b25f0fdb0b1a1a3553e94427f72f847a8107db4866d98f1ff14b452401ff4f7127c5dba2f11cb5fbc319549100360070322079#npm:2.4.28"],\
           ["path-browserify", "npm:1.0.1"],\
           ["request-light", "npm:0.7.0"],\
+          ["typescript", null],\
           ["vscode-languageserver", "npm:9.0.1"],\
           ["vscode-languageserver-protocol", "npm:3.17.5"],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
           ["vscode-uri", "npm:3.0.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1527,11 +1540,24 @@ const RAW_RUNTIME_STATE =
       ["npm:2.4.28", {\
         "packageLocation": "../../.yarn/berry/cache/@volar-language-service-npm-2.4.28-f89b0128b2-10c0.zip/node_modules/@volar/language-service/",\
         "packageDependencies": [\
+          ["@volar/language-service", "npm:2.4.28"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28", {\
+        "packageLocation": "./.yarn/__virtual__/@volar-language-service-virtual-45e6da4970/3/.yarn/berry/cache/@volar-language-service-npm-2.4.28-f89b0128b2-10c0.zip/node_modules/@volar/language-service/",\
+        "packageDependencies": [\
+          ["@types/typescript", null],\
           ["@volar/language-core", "npm:2.4.28"],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["typescript", null],\
           ["vscode-languageserver-protocol", "npm:3.17.5"],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
           ["vscode-uri", "npm:3.0.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1549,10 +1575,23 @@ const RAW_RUNTIME_STATE =
       ["npm:2.4.28", {\
         "packageLocation": "../../.yarn/berry/cache/@volar-typescript-npm-2.4.28-0b79b39aaa-10c0.zip/node_modules/@volar/typescript/",\
         "packageDependencies": [\
+          ["@volar/typescript", "npm:2.4.28"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:692a20906e9d02a63905b0a5b5b25f0fdb0b1a1a3553e94427f72f847a8107db4866d98f1ff14b452401ff4f7127c5dba2f11cb5fbc319549100360070322079#npm:2.4.28", {\
+        "packageLocation": "./.yarn/__virtual__/@volar-typescript-virtual-d248b37be3/3/.yarn/berry/cache/@volar-typescript-npm-2.4.28-0b79b39aaa-10c0.zip/node_modules/@volar/typescript/",\
+        "packageDependencies": [\
+          ["@types/typescript", null],\
           ["@volar/language-core", "npm:2.4.28"],\
-          ["@volar/typescript", "npm:2.4.28"],\
+          ["@volar/typescript", "virtual:692a20906e9d02a63905b0a5b5b25f0fdb0b1a1a3553e94427f72f847a8107db4866d98f1ff14b452401ff4f7127c5dba2f11cb5fbc319549100360070322079#npm:2.4.28"],\
           ["path-browserify", "npm:1.0.1"],\
+          ["typescript", null],\
           ["vscode-uri", "npm:3.0.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3900,10 +3939,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.11", {\
-        "packageLocation": "../../.yarn/berry/cache/nanoid-npm-3.3.11-f98c1f9ef6-10c0.zip/node_modules/nanoid/",\
+      ["npm:3.3.18", {\
+        "packageLocation": "../../.yarn/berry/cache/nanoid-npm-3.3.18-3dd24ff2e6-10c0.zip/node_modules/nanoid/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"]\
+          ["nanoid", "npm:3.3.18"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4207,12 +4246,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss", [\
-      ["npm:8.5.14", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.14-1cf8d01c78-10c0.zip/node_modules/postcss/",\
+      ["npm:8.5.26", {\
+        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.26-b0fc538b49-10c0.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"],\
+          ["nanoid", "npm:3.3.18"],\
           ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.14"],\
+          ["postcss", "npm:8.5.26"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
@@ -5341,7 +5380,7 @@ const RAW_RUNTIME_STATE =
           ["less", null],\
           ["lightningcss", null],\
           ["picomatch", "npm:4.0.3"],\
-          ["postcss", "npm:8.5.14"],\
+          ["postcss", "npm:8.5.26"],\
           ["rollup", "npm:4.59.1"],\
           ["sass", null],\
           ["sass-embedded", null],\
@@ -5413,7 +5452,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/volar-service-css-virtual-bdc58ff18e/3/.yarn/berry/cache/volar-service-css-npm-0.0.70-8f0b2f29b6-10c0.zip/node_modules/volar-service-css/",\
         "packageDependencies": [\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["volar-service-css", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-css-languageservice", "npm:6.3.1"],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
@@ -5440,7 +5479,7 @@ const RAW_RUNTIME_STATE =
           ["@emmetio/css-parser", "npm:0.4.1"],\
           ["@emmetio/html-matcher", "npm:1.3.0"],\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["@vscode/emmet-helper", "npm:2.11.0"],\
           ["volar-service-emmet", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-uri", "npm:3.0.8"]\
@@ -5464,7 +5503,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/volar-service-html-virtual-87060b0df7/3/.yarn/berry/cache/volar-service-html-npm-0.0.70-bf5d3f66aa-10c0.zip/node_modules/volar-service-html/",\
         "packageDependencies": [\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["volar-service-html", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-html-languageservice", "npm:5.3.1"],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
@@ -5490,7 +5529,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/prettier", null],\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["prettier", null],\
           ["volar-service-prettier", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-uri", "npm:3.0.8"]\
@@ -5515,10 +5554,12 @@ const RAW_RUNTIME_STATE =
       ["virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70", {\
         "packageLocation": "./.yarn/__virtual__/volar-service-typescript-virtual-3be3d7ac91/3/.yarn/berry/cache/volar-service-typescript-npm-0.0.70-6d669d659c-10c0.zip/node_modules/volar-service-typescript/",\
         "packageDependencies": [\
+          ["@types/typescript", null],\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["path-browserify", "npm:1.0.1"],\
           ["semver", "npm:7.6.3"],\
+          ["typescript", null],\
           ["typescript-auto-import-cache", "npm:0.3.6"],\
           ["volar-service-typescript", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-languageserver-textdocument", "npm:1.0.12"],\
@@ -5526,8 +5567,10 @@ const RAW_RUNTIME_STATE =
           ["vscode-uri", "npm:3.0.8"]\
         ],\
         "packagePeers": [\
+          "@types/typescript",\
           "@types/volar__language-service",\
-          "@volar/language-service"\
+          "@volar/language-service",\
+          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5543,14 +5586,18 @@ const RAW_RUNTIME_STATE =
       ["virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70", {\
         "packageLocation": "./.yarn/__virtual__/volar-service-typescript-twoslash-queries-virtual-b0f9690510/3/.yarn/berry/cache/volar-service-typescript-twoslash-queries-npm-0.0.70-5ff0e35fc7-10c0.zip/node_modules/volar-service-typescript-twoslash-queries/",\
         "packageDependencies": [\
+          ["@types/typescript", null],\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
+          ["typescript", null],\
           ["volar-service-typescript-twoslash-queries", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-uri", "npm:3.0.8"]\
         ],\
         "packagePeers": [\
+          "@types/typescript",\
           "@types/volar__language-service",\
-          "@volar/language-service"\
+          "@volar/language-service",\
+          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5567,7 +5614,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/volar-service-yaml-virtual-17c01aa97c/3/.yarn/berry/cache/volar-service-yaml-npm-0.0.70-227a4c5d49-10c0.zip/node_modules/volar-service-yaml/",\
         "packageDependencies": [\
           ["@types/volar__language-service", null],\
-          ["@volar/language-service", "npm:2.4.28"],\
+          ["@volar/language-service", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:2.4.28"],\
           ["volar-service-yaml", "virtual:212585f3a547a8866f2e745736f63492ce54548fda711eeb3cd20957292d776d8415f925f619a0a04dde6ec607fcb80328d351bea6dd430c55b49cc8ef76cf13#npm:0.0.70"],\
           ["vscode-uri", "npm:3.0.8"],\
           ["yaml-language-server", "npm:1.20.0"]\
@@ -11588,7 +11635,7 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
-const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const [major, minor, patch] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
 const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 
 function readPackageScope(checkPath) {
