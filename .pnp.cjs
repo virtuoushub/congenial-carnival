@@ -2576,7 +2576,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["esbuild", [\
       ["npm:0.28.2", {\
-        "packageLocation": "../../home/node/.yarn/berry/cache/esbuild-npm-0.28.2-cf50b560fa-10c0.zip/node_modules/esbuild/",\
+        "packageLocation": "./.yarn/unplugged/esbuild-npm-0.28.2-cf50b560fa/node_modules/esbuild/",\
         "packageDependencies": [\
           ["@esbuild/aix-ppc64", "npm:0.28.2"],\
           ["@esbuild/android-arm", "npm:0.28.2"],\
