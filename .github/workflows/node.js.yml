@@ -23,3 +23,4 @@ jobs:
         cache: 'yarn'
     # https://yarnpkg.com/cli/install#examples
     - run: YARN_ENABLE_HARDENED_MODE=0 yarn install --immutable
+    - run: yarn run build
