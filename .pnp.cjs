@@ -188,7 +188,7 @@ const RAW_RUNTIME_STATE =
           ["@astrojs/internal-helpers", "npm:0.11.0"],\
           ["@types/hast", "npm:3.0.4"],\
           ["@types/mdast", "npm:4.0.4"],\
-          ["js-yaml", "npm:4.3.1"],\
+          ["js-yaml", "npm:4.3.2"],\
           ["picomatch", "npm:4.0.5"],\
           ["retext-smartypants", "npm:6.2.0"],\
           ["shiki", "npm:4.0.2"],\
@@ -1808,7 +1808,7 @@ const RAW_RUNTIME_STATE =
           ["github-slugger", "npm:2.0.0"],\
           ["html-escaper", "npm:3.0.3"],\
           ["http-cache-semantics", "npm:4.2.0"],\
-          ["js-yaml", "npm:4.3.1"],\
+          ["js-yaml", "npm:4.3.2"],\
           ["jsonc-parser", "npm:3.3.1"],\
           ["magic-string", "npm:1.2.0"],\
           ["magicast", "npm:0.5.2"],\
@@ -2870,11 +2870,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["js-yaml", [\
-      ["npm:4.3.1", {\
-        "packageLocation": "../../.yarn/berry/cache/js-yaml-npm-4.3.1-6383f7fb93-10c0.zip/node_modules/js-yaml/",\
+      ["npm:4.3.2", {\
+        "packageLocation": "../../.yarn/berry/cache/js-yaml-npm-4.3.2-d3b0efff68-10c0.zip/node_modules/js-yaml/",\
         "packageDependencies": [\
           ["argparse", "npm:2.0.1"],\
-          ["js-yaml", "npm:4.3.1"]\
+          ["js-yaml", "npm:4.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
