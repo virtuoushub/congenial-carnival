@@ -1796,7 +1796,7 @@ const RAW_RUNTIME_STATE =
           ["clsx", "npm:2.1.1"],\
           ["common-ancestor-path", "npm:2.0.0"],\
           ["cookie", "npm:2.0.1"],\
-          ["devalue", "npm:5.9.0"],\
+          ["devalue", "npm:5.9.2"],\
           ["diff", "npm:9.0.0"],\
           ["dset", "npm:3.1.4"],\
           ["es-module-lexer", "npm:2.0.0"],\
@@ -2215,10 +2215,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["devalue", [\
-      ["npm:5.9.0", {\
-        "packageLocation": "../../.yarn/berry/cache/devalue-npm-5.9.0-9e882955b8-10c0.zip/node_modules/devalue/",\
+      ["npm:5.9.2", {\
+        "packageLocation": "../../.yarn/berry/cache/devalue-npm-5.9.2-70169d7b2f-10c0.zip/node_modules/devalue/",\
         "packageDependencies": [\
-          ["devalue", "npm:5.9.0"]\
+          ["devalue", "npm:5.9.2"]\
         ],\
         "linkType": "HARD"\
       }]\
