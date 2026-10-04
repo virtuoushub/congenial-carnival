@@ -1703,7 +1703,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["ajv", "npm:8.18.0"],\
           ["fast-deep-equal", "npm:3.1.3"],\
-          ["fast-uri", "npm:3.1.6"],\
+          ["fast-uri", "npm:3.1.8"],\
           ["json-schema-traverse", "npm:1.0.0"],\
           ["require-from-string", "npm:2.0.2"]\
         ],\
@@ -2519,10 +2519,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["fast-uri", [\
-      ["npm:3.1.6", {\
-        "packageLocation": "../../.yarn/berry/cache/fast-uri-npm-3.1.6-df64e30f4e-10c0.zip/node_modules/fast-uri/",\
+      ["npm:3.1.8", {\
+        "packageLocation": "../../.yarn/berry/cache/fast-uri-npm-3.1.8-9315bdcd40-10c0.zip/node_modules/fast-uri/",\
         "packageDependencies": [\
-          ["fast-uri", "npm:3.1.6"]\
+          ["fast-uri", "npm:3.1.8"]\
         ],\
         "linkType": "HARD"\
       }]\
