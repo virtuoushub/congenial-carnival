@@ -4290,10 +4290,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
-      ["npm:8.10.2", {\
-        "packageLocation": "../../.yarn/berry/cache/undici-npm-8.10.2-8fc19cba7c-10c0.zip/node_modules/undici/",\
+      ["npm:8.12.3", {\
+        "packageLocation": "../../.yarn/berry/cache/undici-npm-8.12.3-9951970495-10c0.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:8.10.2"]\
+          ["undici", "npm:8.12.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4320,7 +4320,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["css-tree", "npm:3.1.0"],\
           ["ohash", "npm:2.0.11"],\
-          ["undici", "npm:8.10.2"],\
+          ["undici", "npm:8.12.3"],\
           ["unifont", "npm:0.7.5"]\
         ],\
         "linkType": "HARD"\
