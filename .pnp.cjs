@@ -1871,7 +1871,7 @@ const RAW_RUNTIME_STATE =
           ["vitefu", "virtual:47203bee3e5c8345611eda404dfbfb14d4fce68d15a58e63042bd8d07366425740595571604df182768099e0397d977aadc70763e2fd1704a60ee0c9e0c5fceb#npm:1.1.2"],\
           ["xxhash-wasm", "npm:1.1.0"],\
           ["yargs-parser", "npm:22.0.0"],\
-          ["zod", "npm:4.5.4"]\
+          ["zod", "npm:4.6.7"]\
         ],\
         "packagePeers": [\
           "@astrojs/markdown-remark",\
@@ -5063,10 +5063,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["zod", [\
-      ["npm:4.5.4", {\
-        "packageLocation": "../../.yarn/berry/cache/zod-npm-4.5.4-5303b3afef-10c0.zip/node_modules/zod/",\
+      ["npm:4.6.7", {\
+        "packageLocation": "../../.yarn/berry/cache/zod-npm-4.6.7-93f9f3c3ad-10c0.zip/node_modules/zod/",\
         "packageDependencies": [\
-          ["zod", "npm:4.5.4"]\
+          ["zod", "npm:4.6.7"]\
         ],\
         "linkType": "HARD"\
       }]\
